@@ -6,6 +6,9 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
+  // added a feature to test CI workflow
+  let topic = "DevOps";
+
   return (
     <>
       <div>
