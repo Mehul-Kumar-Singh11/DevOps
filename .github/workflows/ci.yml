@@ -12,7 +12,7 @@ on:
 # defining a job
 jobs:
   build-and-lint:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
